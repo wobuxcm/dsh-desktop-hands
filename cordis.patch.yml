@@ -1,0 +1,5 @@
+# One host row. The id is stable: removing the row disables the plugin without
+# uninstalling anything.
+- insert:
+    - id: agent-desktop
+      name: 'dsh-desktop-hands'

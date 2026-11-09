@@ -1,0 +1,55 @@
+{
+  "name": "dsh-desktop-hands",
+  "version": "1.1.0",
+  "private": false,
+  "description": "Unofficial community plugin. Desktop automation tools for DeepSeek Harness, backed by the unmodified agent-desktop CLI (Apache-2.0, Vercel Labs): snapshot the accessibility tree, then act on stable refs. Not affiliated with or endorsed by Vercel Labs.",
+  "type": "module",
+  "main": "./index.js",
+  "license": "MIT",
+  "author": "wobuxcm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wobuxcm/dsh-desktop-hands.git"
+  },
+  "homepage": "https://github.com/wobuxcm/dsh-desktop-hands#readme",
+  "bugs": {
+    "url": "https://github.com/wobuxcm/dsh-desktop-hands/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md",
+    "LICENSES/"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "agent-desktop",
+    "computer-use",
+    "accessibility",
+    "desktop-automation"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "engines": {
+      "dsh": ">=0.1.5-rc.1"
+    }
+  },
+  "dependencies": {
+    "agent-desktop": "^1.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+url: https://github.com/wobuxcm/dsh-desktop-hands
+name: wobuxcm/dsh-desktop-hands
+category: tools
+description:
+  en: 'Gives DeepSeek Harness six tools for driving native desktop apps on Windows, macOS and Linux: list apps and windows, snapshot the accessibility tree as JSON with a stable @ref per element, find elements by role or name, read properties, and act on a ref (click, type, press, set a value, scroll, toggle). Refs beat screenshots — no coordinate guessing, no pointer stealing. Actions run headless through the accessibility API by default; headed mode is opt-in. Backed by the unmodified agent-desktop CLI (Apache-2.0). Unofficial community plugin, not affiliated with Vercel Labs.'
+  zh: '给 DeepSeek Harness 装上六只“手”，直接操作原生桌面应用（Windows / macOS / Linux）：列应用与窗口、把无障碍树读成带稳定 @ref 的 JSON、按角色或名称找元素、读属性、按 ref 执行动作（点击、输入、按键、设值、滚动、勾选）。走无障碍树而不是截屏，不猜坐标、不抢鼠标；默认后台静默执行，需要真实键鼠时才开 headed。底层是未经修改的 agent-desktop CLI（Apache-2.0）。社区独立插件，与 Vercel Labs 无隶属关系。'
